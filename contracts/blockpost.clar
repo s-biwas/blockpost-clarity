@@ -1,4 +1,4 @@
-(define-constant contract-owner tx-sender) ;;tx-sender = contract deployer
+(define-constant contract-owner (as-contract tx-sender)) ;;tx-sender = contract deployer
 
 (define-constant price u1000000)
 
